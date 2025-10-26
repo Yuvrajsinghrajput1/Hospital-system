@@ -8,7 +8,7 @@ const Dashboard = () => {
 
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6">Dashboard</h1>
+      <h1 className="text-3xl font-bold mb-6">Dashboardss</h1>
       <p className="mb-4">Role: {user.role}</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white p-6 rounded-lg shadow">
@@ -37,5 +37,6 @@ const Dashboard = () => {
     </div>
   );
 };
+
 
 export default Dashboard;
